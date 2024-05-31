@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left .logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header-text h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.banner {
+    background-color: #65c5a2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.section {
+    width: 45%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.section h3 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 4px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section ul li span {
+    font-size: 12px;
+    color: #999;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.calendar, .announcements {
+    width: 100%;
+}
+
+.announcements ul {
+    padding: 0;
+}
+
+.announcements ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.announcements ul li .date {
+    color: #999;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #ccc;
+}
